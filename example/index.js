@@ -9,6 +9,7 @@ const Stack = createStackNavigator();
 Initializer.init("6s1BDd7jUHhzUV8S8E3kMEyAKfqkKPrw");
 
 export default () => (
+  <ExportContainer>
   <NavigationContainer>
     <Stack.Navigator>
       {Object.keys(examples).map((name) => (
@@ -21,4 +22,5 @@ export default () => (
       ))}
     </Stack.Navigator>
   </NavigationContainer>
+<ExportContainer>
 );
